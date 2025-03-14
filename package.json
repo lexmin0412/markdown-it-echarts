@@ -1,0 +1,45 @@
+{
+  "name": "markdown-it-echarts",
+  "version": "0.0.1",
+  "type": "module",
+  "author": {
+    "name": "lexmin0412",
+    "email": "zhangle_dev@outlook.com",
+    "url": "http://github.com/lexmin0412"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rslib build",
+    "check": "biome check --write",
+    "dev": "rslib build --watch",
+    "format": "biome format --write",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@rslib/core": "^0.5.4",
+    "@types/node": "^22.8.1",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.8"
+  },
+  "private": true,
+  "dependencies": {
+    "echarts": "^5.6.0"
+  }
+}
