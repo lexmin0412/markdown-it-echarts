@@ -2,6 +2,13 @@
   "name": "markdown-it-echarts",
   "version": "0.0.1",
   "type": "module",
+  "description": "markdown-it plugin for echarts",
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "echarts"
+  ],
   "author": {
     "name": "lexmin0412",
     "email": "zhangle_dev@outlook.com",
@@ -34,12 +41,14 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@rslib/core": "^0.5.4",
+    "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.8.1",
     "typescript": "^5.8.2",
     "vitest": "^3.0.8"
   },
   "private": true,
   "dependencies": {
-    "echarts": "^5.6.0"
+    "echarts": "^5.6.0",
+    "markdown-it": "^14.1.0"
   }
 }
