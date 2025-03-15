@@ -1,5 +1,5 @@
 {
-  "name": "markdown-it-echarts",
+  "name": "@lexmin0412/markdown-it-echarts",
   "version": "0.0.1",
   "type": "module",
   "description": "markdown-it plugin for echarts",
@@ -9,6 +9,7 @@
     "markdown",
     "echarts"
   ],
+  "packageManager": "pnpm@8.9.2",
   "author": {
     "name": "lexmin0412",
     "email": "zhangle_dev@outlook.com",
@@ -36,13 +37,16 @@
     "check": "biome check --write",
     "dev": "rslib build --watch",
     "format": "biome format --write",
-    "test": "vitest run"
+    "test": "vitest run",
+    "release": "release-it"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@release-it/conventional-changelog": "^10.0.0",
     "@rslib/core": "^0.5.4",
     "@types/markdown-it": "^14.1.2",
     "@types/node": "^22.8.1",
+    "release-it": "^18.1.2",
     "typescript": "^5.8.2",
     "vitest": "^3.0.8"
   },
