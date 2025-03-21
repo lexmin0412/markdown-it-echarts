@@ -38,7 +38,7 @@ const markdownItEcharts = (md: MarkdownIt) => {
 
         const containerId = existingChartId || `echarts-${chartIdCounter++}`;
 
-        const html = `<div id="${containerId}" style="width: 100%; height: 400px; padding: 0.75rem 0;"></div>`;
+        const html = `<div id="${containerId}" style="width: 100%; min-width: 400px; height: 400px; padding: 0.75rem 0; overflow-y: auto;"></div>`;
 
         if (!existingChartId) {
           const observer = new MutationObserver((mutationsList) => {
