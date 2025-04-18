@@ -18,7 +18,7 @@ devDependencies:
     version: 1.9.4
   '@release-it/conventional-changelog':
     specifier: ^10.0.0
-    version: 10.0.0(release-it@18.1.2)
+    version: 10.0.1(release-it@18.1.2)
   '@rslib/core':
     specifier: ^0.5.4
     version: 0.5.5(typescript@5.8.3)
@@ -254,10 +254,10 @@ packages:
       conventional-commits-parser:
         optional: true
     dependencies:
-      '@types/semver': 7.5.8
+      '@types/semver': 7.7.0
       conventional-commits-filter: 5.0.0
       conventional-commits-parser: 6.1.0
-      semver: 7.6.3
+      semver: 7.7.1
     dev: true
 
   /@esbuild/aix-ppc64@0.25.1:
@@ -884,18 +884,18 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@release-it/conventional-changelog@10.0.0(release-it@18.1.2):
-    resolution: {integrity: sha512-49qf9phGmPUIGpY2kwfgehs9en1znbPv2zdNn1WMLAH9DtHUh4m6KNSB+mLFGAMUhv24JhsA8ruYRYgluc2UJw==}
+  /@release-it/conventional-changelog@10.0.1(release-it@18.1.2):
+    resolution: {integrity: sha512-Qp+eyMGCPyq5xiWoNK91cWVIR/6HD1QAUNeG6pV2G4kxotWl81k/KDQqDNvrNVmr9+zDp53jI7pVVYQp6mi4zA==}
     engines: {node: ^20.9.0 || >=22.0.0}
     peerDependencies:
-      release-it: ^18.0.0
+      release-it: ^18.0.0 || ^19.0.0
     dependencies:
       concat-stream: 2.0.0
       conventional-changelog: 6.0.0
       conventional-recommended-bump: 10.0.0
       git-semver-tags: 8.0.0(conventional-commits-parser@6.1.0)
       release-it: 18.1.2(@types/node@22.13.10)(typescript@5.8.3)
-      semver: 7.6.3
+      semver: 7.7.1
     transitivePeerDependencies:
       - conventional-commits-filter
       - conventional-commits-parser
@@ -1255,8 +1255,8 @@ packages:
     resolution: {integrity: sha512-LriObC2+KYZD3FzCrgWGv/qufdUy4eXrxcLgQMfYXgPbLIecKIsVBaQgUPmxSSLcjmYbDTQbMgr6qr6l/eb7Bg==}
     dev: true
 
-  /@types/semver@7.5.8:
-    resolution: {integrity: sha512-I8EUhyrgfLrcTkzV3TSsGyl1tSuPrEDzr0yd5m90UgNxQkyDXULk3b6MlQqTCpZpNtWe1K0hzclnZkTcLBe2UQ==}
+  /@types/semver@7.7.0:
+    resolution: {integrity: sha512-k107IF4+Xr7UHjwDc7Cfd6PRQfbdkiRabXGRjo07b4WyPahFBZCZ1sE+BNxYIJPPg73UkfOsVOLwqVc/6ETrIA==}
     dev: true
 
   /@vitest/expect@3.0.9:
@@ -1418,7 +1418,7 @@ packages:
       chalk: 5.4.1
       cli-boxes: 3.0.0
       string-width: 7.2.0
-      type-fest: 4.37.0
+      type-fest: 4.40.0
       widest-line: 5.0.0
       wrap-ansi: 9.0.0
     dev: true
@@ -1650,7 +1650,7 @@ packages:
       conventional-commits-filter: 5.0.0
       handlebars: 4.7.8
       meow: 13.2.0
-      semver: 7.6.3
+      semver: 7.7.1
     dev: true
 
   /conventional-changelog@6.0.0:
@@ -1792,7 +1792,7 @@ packages:
     resolution: {integrity: sha512-1gxPBJpI/pcjQhKgIU91II6Wkay+dLcN3M6rf2uwP8hRur3HtQXjVrdAK3sjC0piaEuxzMwjXChcETiJl47lAQ==}
     engines: {node: '>=18'}
     dependencies:
-      type-fest: 4.37.0
+      type-fest: 4.40.0
     dev: true
 
   /echarts@5.6.0:
@@ -2205,8 +2205,8 @@ packages:
       resolve-from: 4.0.0
     dev: true
 
-  /index-to-position@0.1.2:
-    resolution: {integrity: sha512-MWDKS3AS1bGCHLBA2VLImJz42f7bJh8wQsTGCzI3j519/CASStoDONUBVz2I/VID0MpiX3SGSnbOD2xUalbE5g==}
+  /index-to-position@1.1.0:
+    resolution: {integrity: sha512-XPdx9Dq4t9Qk1mTMbWONJqU7boCoumEH7fRET37HX5+khDUl3J2W6PdALxhILYlIYx2amlwYcRPp28p0tSiojg==}
     engines: {node: '>=18'}
     dev: true
 
@@ -2613,7 +2613,7 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       hosted-git-info: 7.0.2
-      semver: 7.6.3
+      semver: 7.7.1
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -2741,13 +2741,13 @@ packages:
       lines-and-columns: 1.2.4
     dev: true
 
-  /parse-json@8.1.0:
-    resolution: {integrity: sha512-rum1bPifK5SSar35Z6EKZuYPJx85pkNaFrxBK3mwdfSJ1/WKbYrjoW/zTPSjRRamfmVX1ACBIdFAO0VRErW/EA==}
+  /parse-json@8.3.0:
+    resolution: {integrity: sha512-ybiGyvspI+fAoRQbIPRddCcSTV9/LsJbf0e/S85VLowVGzRmokfneg2kwVW/KU5rOXrPSbF1qAKPMgNTqqROQQ==}
     engines: {node: '>=18'}
     dependencies:
       '@babel/code-frame': 7.26.2
-      index-to-position: 0.1.2
-      type-fest: 4.37.0
+      index-to-position: 1.1.0
+      type-fest: 4.40.0
     dev: true
 
   /parse-ms@4.0.0:
@@ -2892,7 +2892,7 @@ packages:
     dependencies:
       find-up-simple: 1.0.1
       read-pkg: 9.0.1
-      type-fest: 4.37.0
+      type-fest: 4.40.0
     dev: true
 
   /read-pkg@9.0.1:
@@ -2901,8 +2901,8 @@ packages:
     dependencies:
       '@types/normalize-package-data': 2.4.4
       normalize-package-data: 6.0.2
-      parse-json: 8.1.0
-      type-fest: 4.37.0
+      parse-json: 8.3.0
+      type-fest: 4.40.0
       unicorn-magic: 0.1.0
     dev: true
 
@@ -3088,6 +3088,12 @@ packages:
 
   /semver@7.6.3:
     resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dev: true
+
+  /semver@7.7.1:
+    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
     engines: {node: '>=10'}
     hasBin: true
     dev: true
@@ -3341,8 +3347,8 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /type-fest@4.37.0:
-    resolution: {integrity: sha512-S/5/0kFftkq27FPNye0XM1e2NsnoD/3FS+pBmbjmmtLT6I+i344KoOf7pvXreaFsDamWeaJX55nczA1m5PsBDg==}
+  /type-fest@4.40.0:
+    resolution: {integrity: sha512-ABHZ2/tS2JkvH1PEjxFDTUWC8dB5OsIGZP4IFLhR293GqT5Y5qB1WwL2kMPYhQW9DVgVD8Hd7I8gjwPIf5GFkw==}
     engines: {node: '>=16'}
     dev: true
 
