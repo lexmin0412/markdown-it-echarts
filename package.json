@@ -45,7 +45,7 @@
     "@release-it/conventional-changelog": "^10.0.0",
     "@rslib/core": "^0.5.4",
     "@types/markdown-it": "^14.1.2",
-    "@types/node": "^22.8.1",
+    "@types/node": "^24.0.3",
     "release-it": "^18.1.2",
     "typescript": "^5.8.2",
     "vitest": "^3.0.8"
